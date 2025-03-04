@@ -1,6 +1,5 @@
 # LEVEL 1
 # Electronic Design
-
 ## 1. **Engineer’s Swiss Army Knife**
 Create a Matlab account and complete the [MATLAB Onramp](https://matlabacademy.mathworks.com/details/matlab-onramp/gettingstarted) course and obtain the certification.
 ![MATLAB](https://gist.github.com/user-attachments/assets/d54955be-4776-4b04-8ed7-92392f3a65c1)
@@ -52,11 +51,10 @@ Start by creating a 4-bit adder using basic logic gates, ensuring correct handli
 ---
 ## 7. **Colpitts on the Board!**:
 - **Objective**: Learn basics of PCB Designing
-	- **Task:**  Create a PCB for a simple Colpitts Oscillator. Learn the interface of KiCad thoroughly 
-	- **Platform**: **KiCad**
+	- **Task:**  Create a PCB for a Booster Circuit which you've learnt earlier. Learn the interface of Altium thoroughly 
+	- **Platform**: **Altium Designer**
 #### Resources:
-1. [KiCad](https://www.youtube.com/watch?v=l9b_6WLemmg)
-2. [Colpitts Oscillator](https://www.youtube.com/watch?v=1fgw-ONlAcc)
+1. [Altium Student Lab](https://www.altium.com/education/students)
 ![Colpitts](https://industries.winstonind.com/wp-content/uploads/2024/04/pcb-design.jpg)
 	
 ---
