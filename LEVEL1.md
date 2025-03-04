@@ -54,7 +54,7 @@ Start by creating a 4-bit adder using basic logic gates, ensuring correct handli
 	- **Task:**  Create a PCB for a Booster Circuit which you've learnt earlier. Learn the interface of Altium thoroughly 
 	- **Platform**: **Altium Designer**
 #### Resources:
-1. [Altium Student Lab](https://www.altium.com/education/students)
+1. [Altium Student Lab](https://www.altium.com/education/students): Apply for student lisence then enroll and learn their coursework
 ![PCB](https://industries.winstonind.com/wp-content/uploads/2024/04/pcb-design.jpg)
 	
 ---
