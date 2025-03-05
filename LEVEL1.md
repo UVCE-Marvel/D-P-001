@@ -49,12 +49,12 @@ Start by creating a 4-bit adder using basic logic gates, ensuring correct handli
 7. [Building a Basic ALU](https://www.youtube.com/watch?v=dYZ-Hwbcnq4)
 
 ---
-## 7. **Boostopia: The PCB Revolution**
+## 7. **The PCB Revolution**
 - **Objective**: Learn basics of PCB Designing
-	- **Task:**  Create a PCB for a Booster Circuit which you've learnt earlier. Learn the interface of Altium thoroughly 
+	- **Task:**  Apply for the Altium student license and complete the Altium Student Lab PCB coursework. 
 	- **Platform**: **Altium Designer**
 #### Resources:
-1. [Altium Student Lab](https://www.altium.com/education/students): Apply for student lisence then enroll and learn their coursework
+1. [Altium Student Lab](https://www.altium.com/education/students)
 ![PCB](https://industries.winstonind.com/wp-content/uploads/2024/04/pcb-design.jpg)
 	
 ---
