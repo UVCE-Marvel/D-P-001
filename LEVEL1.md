@@ -54,10 +54,10 @@ Start by creating a 4-bit adder using basic logic gates, ensuring correct handli
 	- **Task:**  Apply for the Altium student license and complete the Altium Student Lab PCB coursework. 
 	- **Platform**: **Altium Designer**
 #### Resources:
-1. [Altium Student Lab](https://www.altium.com/education/students)
-2. [Getting Started with Altium Designer](https://hub.uvcemarvel.in/article/3fcd809f-5049-4107-bba9-26edee91f9c7)
+1. [Getting Started with Altium Designer](https://hub.uvcemarvel.in/article/3fcd809f-5049-4107-bba9-26edee91f9c7)
 ![PCB](https://industries.winstonind.com/wp-content/uploads/2024/04/pcb-design.jpg)
-	
+2. [Altium Student Lab](https://www.altium.com/education/students)
+    
 ---
 ## 8. **Convolution Countdown**
 - **Objective:** To theoretically learn basics of Digital Signal Processing
