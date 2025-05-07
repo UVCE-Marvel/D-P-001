@@ -65,6 +65,35 @@ Start by creating a 4-bit adder using basic logic gates, ensuring correct handli
 -  **Platform**: MATLAB
 ![DSP](https://github.com/Pattavardhanam/MARVEL-Level-1-Report/blob/main/Pics/Fourier.jpg?raw=true)  
 ---
+## 9. **Whose Array Is It Anyway?**
+- **Objective**: To understand and implement combinational logic design using **PAL** and **PLA** structures
+   - **Tasks:** 
+	   - Read up on basics of **PROM, Programmable Logic Arrays and Programmable Array Logics** and understand the key differences
+	   - **Basics**:
+		   - Design a logic circuit that **outputs '1'** if the **number of 1’s** in a 3-bit input (A, B, C) is **odd**
+		   - In this task you need to first design using a PAL
+		   - Then design the same thing using a PLA
+		   - For both it's mandatory to draw fuse tables of AND Array and OR Array and show the fuse and blown connections.
+	   - **Taking it up a notch:**
+		   - Design a controller that manages three lights in a smart home system based on these conditions - **Motion sensor (M), Light level sensor (L), Time of day (T), Manual override (O)** - using either PLA or PAL and **justify the design.**
+   - **Platform**: [Logisim Evolution](https://github.com/logisim-evolution/logisim-evolution/releases)
+   - **Resources:** 
+	   1. https://www.geeksforgeeks.org/programming-array-logic/
+	   2. https://www.geeksforgeeks.org/programmable-logic-array/
+	   3. https://www.youtube.com/results?search_query=pla+and+pal+in+digital+electronics
+
+## 10. **Your Logic, Preloaded**
+- **Objective**: To understand the concept of **Look-Up Tables (LUTs)**
+   - **Tasks:** 
+	   - Read up on basics of **Look Up Tables** in digital electronics
+	   -  Implement a 2-input XOR function using a **4x1 LUT** (2 input bits select one of 4 pre-stored outputs).
+	   - First, manually create the truth table for XOR.
+	   - Then, program a 4x1 LUT with the correct outputs based on the truth table.
+	   - Simulate how inputs select different stored outputs.		
+   - **Platform**: [CircuitVerse](https://circuitverse.org/) or [Logisim Evolution](https://github.com/logisim-evolution/logisim-evolution/releases)
+   - **Resources:** 
+	   1. https://www.allaboutcircuits.com/textbook/digital/chpt-16/look-up-tables/
+	   2. https://youtu.be/h3E0vtbGgBE?si=rj2JlAR9i_HxBHZf
 # Mechanical Design
 ## Introductory Module
 ### Fundamentals of CAD
