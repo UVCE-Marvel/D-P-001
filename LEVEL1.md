@@ -81,7 +81,7 @@ Start by creating a 4-bit adder using basic logic gates, ensuring correct handli
 	   1. https://www.geeksforgeeks.org/programming-array-logic/
 	   2. https://www.geeksforgeeks.org/programmable-logic-array/
 	   3. https://www.youtube.com/results?search_query=pla+and+pal+in+digital+electronics
-
+---
 ## 10. **Your Logic, Preloaded**
 - **Objective**: To understand the concept of **Look-Up Tables (LUTs)**
    - **Tasks:** 
