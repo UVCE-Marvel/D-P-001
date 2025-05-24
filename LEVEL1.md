@@ -93,7 +93,6 @@ Start by creating a 4-bit adder using basic logic gates, ensuring correct handli
    - **Resources:** 
 	   1. https://www.allaboutcircuits.com/textbook/digital/chpt-16/look-up-tables/
 	   2. https://youtu.be/h3E0vtbGgBE?si=rj2JlAR9i_HxBHZf
-           3. "Digital Design", Morris Mano, 6th Edition 
 # Mechanical Design
 ## Introductory Module
 ### Fundamentals of CAD
