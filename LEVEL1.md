@@ -78,9 +78,8 @@ Start by creating a 4-bit adder using basic logic gates, ensuring correct handli
 		   - Design a controller that manages three lights in a smart home system based on these conditions - **Motion sensor (M), Light level sensor (L), Time of day (T), Manual override (O)** - using either PLA or PAL and **justify the design.**
    - **Platform**: [Logisim Evolution](https://github.com/logisim-evolution/logisim-evolution/releases)
    - **Resources:** 
-	   1. https://www.geeksforgeeks.org/programming-array-logic/
-	   2. https://www.geeksforgeeks.org/programmable-logic-array/
-	   3. https://www.youtube.com/results?search_query=pla+and+pal+in+digital+electronics
+	   1. [PAL](https://www.geeksforgeeks.org/programming-array-logic/) [PLA](https://www.geeksforgeeks.org/programmable-logic-array/)
+	   2. "Digital Design", Morris Mano, 6th Edition
 ---
 ## 10. **Your Logic, Preloaded**
 - **Objective**: To understand the concept of **Look-Up Tables (LUTs)**
