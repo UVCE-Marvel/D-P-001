@@ -6,20 +6,20 @@ Create a Matlab account and complete the [MATLAB Onramp](https://matlabacademy.m
 	
 ---
 ## 2. **Cut, Pass, Repeat**  
-   - **Objective**: To learn about Band Pass Filters  
+   - **Objective**: To learn about [Band Pass Filters](https://www.youtube.com/watch?v=dmPIydL0lyM)  
    - **Task**: Design a second order band pass filter using IC747 that amplifies the signal to roughly 1.5 times the original signal.Cutoff range between 4kHz and 10kHz  
    - **Platform**: LTSpice
    ![BandPass](https://kistler.cdn.celum.cloud/SAPCommerce_FullSize_1200x1200/band-pass-filter.webp)
 ---
 ## 3. **SPICEy Code**  
-   - **Objective**: To learn SPICE code  
+   - **Objective**: To learn [SPICE](https://www.youtube.com/watch?v=1kGkf3vLnCc) code  
    - **Task**: Write basic SPICE code for a MOS inverter, AND and OR Gates  
    - **Platform**: LTSpice
 ---
 ## 4. **From Low to Woah!**  
-   - **Objective**: Voltage multiplier using capacitor pumps and a 555 Timer IC  
+   - **Objective**: Voltage multiplier using capacitor pumps and a [555 Timer IC](https://www.youtube.com/watch?v=EGmreVQ-yNM)  
    - **Task**: Pump up 9V to 18V at first, then cascade the pump to get 27V.  
-   - **Platform:** LTSpice
+   - **Platform:** LTSpice/TinkerCAD
     
 ---
 ## 5. **The Power Shuffle: Buck-Boost Edition**  
@@ -50,7 +50,7 @@ Start by creating a 4-bit adder using basic logic gates, ensuring correct handli
 
 ---
 ## 7. **The PCB Revolution**
-- **Objective**: Learn basics of PCB Designing
+- **Objective**: Learn basics of [PCB](https://pcb.mit.edu/) Designing
 	- **Task:**  Apply for the Altium student license and complete the Altium Student Lab PCB coursework. 
 	- **Platform**: **Altium Designer**
 #### Resources:
