@@ -55,7 +55,7 @@ Start by creating a 4-bit adder using basic logic gates, ensuring correct handli
 	- **Platform**: **Altium Designer**
 #### Resources:
 1. [Getting Started with Altium Designer](https://hub.uvcemarvel.in/article/3fcd809f-5049-4107-bba9-26edee91f9c7)
-2. [Altium Education]([https://www.altium.com/education/students](https://education.altium.com/))
+2. [Altium Education](https://education.altium.com/)
 ![PCB](https://industries.winstonind.com/wp-content/uploads/2024/04/pcb-design.jpg)
     
 ---
