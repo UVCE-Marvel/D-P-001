@@ -61,7 +61,7 @@ Start by creating a 4-bit adder using basic logic gates, ensuring correct handli
 ---
 ## 8. **Convolution Countdown**
 - **Objective:** To theoretically learn basics of Digital Signal Processing
-- **Task**: Learn basics of DSP including an introduction to signals, systems and mathematical transforms such as Z-Transform and Fourier Transform. Perform a simple Linear [Convolution](https://www.youtube.com/watch?v=KuXjwB4LzSA) in MATLAB for two 4 sample discrete signals.
+- **Task**: Learn basics of DSP including an introduction to signals, systems and mathematical transforms such as Z-Transform and [Fourier Transform](https://www.youtube.com/watch?v=spUNpyF58BY). Perform a simple Linear [Convolution](https://www.youtube.com/watch?v=KuXjwB4LzSA) in MATLAB for two 4 sample discrete signals.
 -  **Platform**: MATLAB
 ![DSP](https://github.com/Pattavardhanam/MARVEL-Level-1-Report/blob/main/Pics/Fourier.jpg?raw=true)  
 ---
