@@ -1,5 +1,5 @@
 # LEVEL 2
-## M E C H A N I C A L
+# Mechanical Design
 ## Assembly & Simulation
 Gripper design, assembly and simulation.
 Design the parts, assemble them as instructed thereof, and simulate them in Fusion360.
@@ -67,41 +67,225 @@ Go through the resource and acquire a sound understanding of laser engraving pro
 ![Screenshot 2025-02-03 011838](https://github.com/user-attachments/assets/1f20435f-67c3-440f-8ef3-db7c78f8ce6d)
 
 
-## E L E C T R O N I C S
-### Create A Voltage Multiplier!!
-Voltage multiplier using capacitor pumps and a 555 Timer IC.
-To do:
-Pump up 9V to 18V at first, then cascade the pump to get 27V.
-Use TinkerCad to design the required circuit
-[Resources](https://www.youtube.com/results?search_query=voltage+multiplier)
+# Electronic Design
+## 1. Smooth Operator  
+- **Prerequisite**: A basic understanding of [Amplitude Modulation](https://www.youtube.com/watch?v=wqTv6jdUPL4)  
+- **Objective**: Building a complete AM Transmitter–Receiver pair with a focus on Demodulation using a DIY Envelope Detector.  
+- **Task Description**:  
+  Construct a simple AM **Transmitter and Receiver**. You'll focus on the **demodulator** stage—using a diode-capacitor-resistor network to extract the original audio signal. You’ll critically evaluate how the [**RC time constant**](https://www.youtube.com/watch?v=NKDF110GEwU) affects the demodulated signal’s fidelity and clarity. This hands-on build will help you understand both signal transmission and analog demodulation concepts.  
+  - **Platform**: Breadboard (Hardware task)
+  - **Expected Task Outcomes**:
+    - Understand how a [**Colpitts oscillator**](https://www.youtube.com/results?search_query=colpitts+oscillator) can generate a carrier signal for AM transmission.
+    - Construct and fine-tune a **DIY envelope detector** using diode + RC network.
+    - Analyze how **component values (R and C)** affect demodulation quality.
+    - Observe AM signals at various stages using a multimeter or oscilloscope.
+  - **Resources**:  
+    - [Simple AM Radio Project – Instructables](https://www.instructables.com/Simple-AM-Radio-Transmitter-Receiver/)  
+    - [Envelope Detector – Analog Dialogue](https://www.analog.com/media/en/analog-dialogue/studentzone/studentzone-09-2024.pdf)
 
-### Create a circuit that provides short-circuit protection.
-A circuit when shorted can cause serious damage to the equipment. Create a circuit that provides the necessary protection.
+**Concept Spotlight: Envelope Detector**  
+Imagine an AM signal as a voice hidden inside a bumpy wave. The envelope detector "traces" the bumpy outline and pulls the voice out. The **diode** only allows one direction of current—like a gate—while the **capacitor** smoothens the bumps, and the **resistor** controls how quickly it resets. Together, they decode the message hidden in the carrier wave.
+![AM](https://www.tutorialspoint.com/analog_communication/images/am_modulated_wave.jpg)
 
-[Resources](https://www.instructables.com/How-to-Make-Short-Circuit-Protection-Circuit/)
-### Colpitts Chaos
-Create a Colpitts oscillator circuit using an operational amplifier(IC747) to produce a sinusoidal waveform. Understand the behavior of an oscillator circuit and the role of feedback in sustaining oscillations. Generate a frequency of oscillation around 1 kHz.
-Use LTspice for simulation.
+---
 
-[Resource](https://www.youtube.com/results?search_query=colpitts+oscillator)
+## 2. Blue Pill Reloaded
+- **Prerequisite**: Level 1 Task 7 - PCB Revolution
+- **Objective**: Apply knowledge acquired from the PCB Design Course in Level 1
+- **Task**: Using knowledge from Level 1 PCB Design, create a custom **[STM32](https://www.youtube.com/playlist?list=PLnMKNibPkDnFa5bR8U78UXs6b5bzKXxq-) Blue Pill-inspired board**. Upgrade it with features like USB-C, additional headers, onboard sensors, or a better regulator. You'll learn to interpret datasheets, manage footprints, and place decoupling caps effectively. Design the schematic in **Altium**, configure the MCU in **STM32CubeMX**, and finish the PCB layout considering trace widths, routing strategy, and 2-layer board design rules.
+  - **Platform**: Altium and STM32CubeMX
+  - **Expected Task Outcomes**:
+    - Apply real-world PCB design principles to a known microcontroller.
+    - Integrate firmware design with PCB layout.
+    - Gain confidence in schematic design, layout, and manufacturing prep.
+  - **Resources**:
+    - [Altium Education](https://education.altium.com/)
+    - [STM32CubeMX](https://www.youtube.com/watch?v=szMGedsp9jc)
 
-### The Great Adder Escapade
-Learn the basics of verilog and implement a 4 bit full adder by cascading 4 Full Adders, in the process do gate level modelling for each full adder. Write a testbench to simulate the same.
-Use Vivado Design suite for implementing this task.
+**Concept Spotlight: Microcontroller ([Blue Pill](https://erc-bpgc.github.io/handbook/electronics/Development_Boards/STM32/))**  
+The Blue Pill is like a mini brain that can sense, think, and act. It controls LEDs, motors, sensors, and more. Designing a custom version teaches you how to build your own smart devices.
 
-Resources:
-1. [Verilog](https://www.asic-world.com/verilog/veritut.html)
-2. [Vivado](https://docs.amd.com/r/en-US/ug949-vivado-design-methodology/Vivado-Design-Suite-Tutorials)
+**Concept Spotlight: [Decoupling Capacitor](https://www.youtube.com/watch?v=u40kX1DYKdA)**  
+These are tiny "shock absorbers" that protect the microcontroller from voltage spikes—like giving it a smooth power ride.
+![Bluepill](https://stm32-base.org/assets/img/boards/STM32F103C8T6_Blue_Pill-1.jpg)
 
- ## Complete the Simulink and Stateflow onRamp Course and get certified
- Matlab offers a Simulink and Matlab introductory course complete these courses to get a basic understanding of Matlab to implement in your projects
- Resources : Matlab Courses - https://matlabacademy.mathworks.com/?page=1&sort=featured
+---
 
+## 3. Digital DNA
+- **Prerequisite**: An elementary understanding of [Digital Logic](https://www.youtube.com/playlist?list=PLBlnK6fEyqRjMH3mWf6kwqiTbT798eAOm)
+- **Objective**: Mastering Verilog Through Creative Circuit Design
+- **Task**: Begin your journey into **Verilog HDL** by building meaningful projects.
+### Basics
+- Learn the differences between implementation code and testbench code in Verilog.
+- Design and test an 8-bit signed arithmetic unit with operations:
+	- Addition (00)
+	- Subtraction (01)
+	- Comparison (10)
+	- Absolute difference (11)
+	- Generate 3 status flags: overflow, zero, negative
+- Design a [**2D Population Count Circuit**](https://www.youtube.com/watch?v=X6DC1nD_Amc) that analyzes a 4×4 binary matrix and provides comprehensive bit counting statistics.
+- Design and test a [4-bit Ripple Carry Adder](https://www.youtube.com/watch?v=b70ZQwci5sY) using a **Generate Block**. Each gate has a Rise, Fall, and Turn-Off Delay of 3ns, 6ns, and 2ns respectively.
+- Design and test the **Capstone Home Light Automation PLA/PAL** from Level 1.
+- **Bonus Challenge**: Design and test a Cellular Automaton of your choice: Rule 90, Rule 110, or 16x16 Conway's Game of Life.
+### Capstone
+Build an alarm system using Verilog and simulate it on a Basys3 FPGA.
+- **Platform**: Intel Quartus Design Suite or AMD Vivado Design Suite.
+- **Expected Task Outcomes**:
+  - Learn modular and test-driven Verilog design.
+  - Master simulation/debugging in Quartus or Vivado.
+  - Build a strong foundation for VLSI, FPGA, and digital logic design.
+- **Resources**:
+  - [nandland](https://nandland.com/)
+  - "[Verilog HDL](https://online.fliphtml5.com/xhwpr/uraa/)", Samir Palnitkar
+  - [ASIC-WORLD](https://www.asic-world.com/verilog/veritut.html)
+  - [Verilog Playlist](https://www.youtube.com/playlist?list=PL_3xKnVkfI2itQhCyfnamNYSCHd2KHi4k)
+  - [HDL Bits](https://hdlbits.01xz.net/wiki/Main_Page)
+  - "Digital Design", Morris Mano, 6th Edition
+  - [Cellular Automaton](https://www.techtarget.com/searchenterprisedesktop/definition/cellular-automaton)
+  - [Conway Game of Life](https://www.youtube.com/watch?v=R9Plq-D1gEk)
+  - "[Digital VLSI Design with Verilog](https://online.fliphtml5.com/xhwpr/jbdz/)", John Williams
+  - [The official IEEE Standard for Verilog HDL](https://www.eg.bucknell.edu/~csci320/2016-fall/wp-content/uploads/2015/08/verilog-std-1364-2005.pdf) - Defined in IEEE 1364-2005
 
+**Concept Spotlight: Verilog & Testbench**  
+Verilog is a coding language used to "build" digital circuits in software. A testbench is like a practice lab—it tests how your design works before you build it.
 
+**Concept Spotlight: Cellular Automaton**  
+These are digital grids that evolve over time by simple rules, producing life-like behaviors. Used in simulations, games, and even biology modeling.
+![Verilog](https://www.allaboutcircuits.com/uploads/articles/verilog_getting_started.jpg)
 
+---
+## 4. The Great Timing Heist
+- **Prerequisite**: Digital DNA Level 2 Task 3
+- **Objective**: Mastering Static Timing Analysis
+- **Task**: Delve into [Static Timing Analysis (STA)](https://www.vlsi-expert.com/2011/03/static-timing-analysis-sta-basic-timing.html) using Intel Quartus or AMD Vivado. Learn key concepts like setup/hold times, slack, and critical paths. Apply this knowledge by analyzing timing reports of a sample design and identifying potential timing violations.
+- **Platform**: Intel Quartus Design Suite or AMD Vivado Design Suite.
+- **Expected Outcomes**:
+  - Understand STA fundamentals.
+  - Interpret timing reports effectively.
+  - Identify and resolve timing issues in FPGA designs.
+- **Resources**:
+  - [AMD STA Guide](https://docs.amd.com/r/en-US/ug906-vivado-design-analysis/Timing-Analysis)
+  - "[Digital VLSI Design with Verilog](https://online.fliphtml5.com/xhwpr/jbdz/)", John Williams, Chapter 17, Week 9 Class 1
 
+**Concept Spotlight: Static Timing Analysis (STA)**  
+Imagine checking if every delivery in a relay race makes it on time. STA checks signal timing between digital elements so the circuit doesn’t break at high speed.
+![STA](https://schaumont.dyn.wpi.edu/ece574f24/_images/violation.jpg)
 
+---
 
+## 5. Logic Lore
+- **Prerequisite**: Level 1 Task 10 - LUTs
+- **Objective**: Exploring FPGA Architecture
+- **Task**: Understand the following theoretically:
+  - Basic Xilinx Architecture
+  - Configurable Logic Block (CLB)
+  - Switch Matrix
+  - How they combine with memory to form a basic FPGA tile
+- **Platform**: Theoretical Study
+- **Expected Outcomes**:
+  - Understand the structure and function of FPGA components.
+  - Comprehend how CLBs and switch matrices contribute to FPGA flexibility.
+- **Resources**:
+  - "Digital Design", Morris Mano, 6th Edition
+  - [Xilinx FPGA Architecture](https://www.geeksforgeeks.org/xilinx-fpga-architecture/)
+  - [CLB Video](https://www.youtube.com/watch?v=Ba3oERw8gYw)
+  - [Switch Matrix Video](https://www.youtube.com/watch?v=fbmx34Syxis)
 
+**Concept Spotlight: FPGA Tile**  
+A tile is one "cell" in an FPGA grid. Each tile contains configurable logic and routing pathways—like a self-configuring circuit block.
 
+**Concept Spotlight: LUT (Look-Up Table)**  
+A LUT stores outputs for every possible combination of inputs—like a digital truth table that makes decisions.
+
+---
+
+## 6. Silicon Sandbox
+- **Prerequisite**: Logic Lore Level 2 Task 5
+- **Objective**: To build a simple, single FPGA tile and simulate it using Verilog
+- **Tasks**:
+  - Design the CLB Module (LUT + D Flip-Flop)
+  - Design the Switch Matrix (4x4 programmable mux)
+  - Design the top-level FPGA Tile module
+  - Write the testbench code and verify the timing diagram.
+- **Platform**: Intel Quartus Design Suite or AMD Vivado Design Suite.
+- **Expected Outcomes**:
+  - Develop Verilog modules representing FPGA components.
+  - Understand interconnections within an FPGA tile.
+  - Simulate and validate FPGA tile behavior.
+- **Resources**: Refer to Tasks 3, 4, and 5
+
+**Concept Spotlight: Multiplexer (MUX)**  
+A MUX is like a switchboard—it selects one signal from many and sends it out. A 4x4 programmable mux can connect any of 4 inputs to 4 outputs.
+
+**Concept Spotlight: D Flip-Flop**  
+It stores one bit at a time. Think of it like a tiny memory cell triggered by a clock.
+![FPGA](https://allaboutfpga.com/wp-content/uploads/2014/04/FPGA-Architecture.png)
+
+---
+
+## 7. MOS Whisperer
+- **Prerequisite**: An elementary understanding of MOSFETs and CMOS. Level 1 Task 3
+- **Objective**: To learn Analog VLSI Design techniques
+- **Tasks**:
+  - **Basics**:
+    - Learn the interface of Electric VLSI
+    - Create a CMOS Inverter using CMOS technology
+  - **Taking it up a notch**:
+    - Draw schematic and layout of a CMOS Operational Amplifier
+- **Platform**: Electric VLSI
+- **Expected Outcomes**:
+  - Design and simulate CMOS VLSI.
+  - Understand the physical layout of VLSI circuitas.
+  - Gain proficiency in using Electric VLSI tools.
+- **Resources**:
+  - [Download Electric VLSI](https://www.staticfreesoft.com/productsFree.html)
+  - [Electric VLSI Playlist](https://www.youtube.com/playlist?list=PLZv8x7uxq5XYYdpxtQR2nlEKMGn6ssFjT)
+  - "Design of Analog CMOS Integrated Circuits", Behzad Razavi
+
+**Concept Spotlight: CMOS Inverter**  
+The CMOS inverter flips signals (1 to 0, and vice versa). It’s made of two transistors: one pulls the output high, the other low.
+
+**Concept Spotlight: Layout vs. Schematic**  
+- Schematic is the map.  
+- Layout is the physical blueprint for chip fabrication.
+
+---
+
+## 8. Keep Calm & ROS On
+- **Prerequisite**: Level 0 Ubuntu Task and a whole lot of Patience
+- **Objective**: To learn and implement basic Robot Operating System 2 topics
+- **Task**:
+  - Install and set up Ubuntu 22.04 (dual boot or VM) and ROS 2 Humble Hawksbill.
+  - Learn the basics of:
+    - Nodes
+    - Topics
+    - Publishers
+    - Subscribers
+  - Install the Turtlesim simulator and understand its topics
+  - Write two custom nodes:
+    - A Publisher Node that sends velocity commands to move the turtle.
+    - A Subscriber Node that listens to the turtle’s pose and logs the x, y, and theta values.
+- **Platforms**:
+  - Ubuntu
+  - VS Code installed on Ubuntu
+  - Terminal/Terminator
+  - TurtleSim
+- **Expected Outcomes**:
+  - Install and configure ROS 2 environment.
+  - Understand and implement basic ROS 2 communication.
+  - Develop simple ROS 2 nodes for simulation control.
+- **Resources**:
+  - [Ubuntu Dual Boot Guide](https://www.youtube.com/watch?v=mXyN1aJYefc)
+  - [Ubuntu VM Guide](https://www.youtube.com/watch?v=hYaCCpvjsEY)
+  - [ROS2 Playlist](https://www.youtube.com/playlist?list=PLLSegLrePWgJudpPUof4-nVFHGkB62Izy)
+  - [Terminator Multiple Terminals](https://www.youtube.com/watch?v=cRS8q6vDI8Y)
+  - [TurtleSim](https://wiki.ros.org/turtlesim)
+  - [ROS2 Wiki](https://wiki.ros.org/)
+
+**Concept Spotlight: ROS 2**  
+ROS 2 is like a smart operating system for robots. It helps different parts of a robot "talk" to each other.
+
+**Concept Spotlight: Publisher and Subscriber**  
+- The Publisher says things like “move forward!”  
+- The Subscriber listens and reacts—like a friend taking directions.
+![ROS](https://ubuntu.com/wp-content/uploads/bbc1/HumbleHawksbill_02.png)
