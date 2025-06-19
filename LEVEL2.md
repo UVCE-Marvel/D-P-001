@@ -214,7 +214,7 @@ A LUT stores outputs for every possible combination of inputs—like a digital t
   - Simulate and validate FPGA tile behavior.
 - **Resources**: Refer to Tasks 3, 4, and 5
 
-**Concept Spotlight: Multiplexer (MUX)**  
+**Concept Spotlight: Multiplexer ([MUX](https://www.geeksforgeeks.org/digital-logic/multiplexers-in-digital-logic/))**  
 A MUX is like a switchboard—it selects one signal from many and sends it out. A 4x4 programmable mux can connect any of 4 inputs to 4 outputs.
 
 **Concept Spotlight: D Flip-Flop**  
