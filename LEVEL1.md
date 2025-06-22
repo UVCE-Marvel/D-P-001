@@ -7,7 +7,7 @@ Create a Matlab account and complete the [MATLAB Onramp](https://matlabacademy.m
 ---
 ## 2. **Cut, Pass, Repeat**  
    - **Objective**: To learn about [Band Pass Filters](https://www.youtube.com/watch?v=dmPIydL0lyM)  
-   - **Task**: Design a second order active band pass filter that amplifies the signal to roughly 1.5 times the original signal.Cutoff range between 4kHz and 10kHz  
+   - **Task**: Design a second order active band pass filter(using [OpAmps](https://youtu.be/OSCKBmkrH_g?si=pH-DUt8XflFL7zf3) that amplifies the signal to roughly 1.5 times the original signal.Cutoff range between 4kHz and 10kHz  
    - **Platform**: LTSpice
    ![BandPass](https://kistler.cdn.celum.cloud/SAPCommerce_FullSize_1200x1200/band-pass-filter.webp)
 ---
