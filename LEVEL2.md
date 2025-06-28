@@ -136,7 +136,8 @@ Build an alarm system using Verilog and simulate it on a Basys3 FPGA.
   - Build a strong foundation for VLSI, FPGA, and digital logic design.
 - **Resources**:
   - [nandland](https://nandland.com/)
-  - "[Verilog HDL](https://online.fliphtml5.com/xhwpr/uraa/)", Samir Palnitkar
+  - "[Verilog HDL: A Guide to Digital Design and Synthesis](https://online.fliphtml5.com/xhwpr/uraa/)", Samir Palnitkar(Beginner to Intermediate)
+  - "[Verilog HDL Synthesis: A Practical Primer](https://online.fliphtml5.com/xhwpr/fvjv/)",J Bhasker(Intermediate to Advanced)
   - [ASIC-WORLD](https://www.asic-world.com/verilog/veritut.html)
   - [Verilog Playlist](https://www.youtube.com/playlist?list=PL_3xKnVkfI2itQhCyfnamNYSCHd2KHi4k)
   - [HDL Bits](https://hdlbits.01xz.net/wiki/Main_Page)
