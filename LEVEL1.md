@@ -93,6 +93,8 @@ Start by creating a 4-bit adder using basic logic gates, ensuring correct handli
    - **Resources:** 
 	   1. https://www.allaboutcircuits.com/textbook/digital/chpt-16/look-up-tables/
 	   2. https://youtu.be/h3E0vtbGgBE?si=rj2JlAR9i_HxBHZf
+---
+
 # Mechanical Design
 ## Introductory Module
 ### Fundamentals of CAD
@@ -103,7 +105,7 @@ https://drive.google.com/file/d/1_AMMsWewL0sAlRoD_eP7sz8Rmb6gJMfO/view?usp=shari
 ### Apply for Autodesk Educational licence
 https://www.autodesk.com/education/edu-software/overview?sorting=featured&filters=individual 
 
-## I. Introduction to Engineering Drawing
+## 1. Introduction to Engineering Drawing
 ### Isometric & Orthographic Projections
 ![image](https://github.com/UVCE-Marvel/D-P-001/assets/105961270/0fc33d8c-d900-417a-95c9-0765b4019cda)
 
@@ -156,7 +158,6 @@ Design a simple aerofoil for an HTOL aircraft using Fusion360.Make use of Plug-I
 3.[Short Tutorial](https://www.youtube.com/watch?v=nuC16wZahsA)
 4.[One more tutorial](https://www.youtube.com/watch?v=nuC16wZahsA)
 ![aerofoil](https://gist.github.com/user-attachments/assets/92111829-c648-411c-b8fd-c4d98b867093)
-3c214153)
 
 
 #### Surface Modelling: 
@@ -165,7 +166,7 @@ Reference
 1.[Introduction to Forms](https://youtu.be/mUMkiXwikw4)
 2.[What is a Toroidal Propellor?](https://www.youtube.com/watch?v=E8L8I0dLh_o)
 2.[Toroidal Propellor Modelling](https://www.youtube.com/watch?v=2unQqheGp-Q)
-![toroidal prop](https://gist.github.com/user-attachments/assets/ae7a8dfb-6dfa-4289-85ea-b5a3
+![toroidal prop](https://gist.github.com/user-attachments/assets/ae7a8dfb-6dfa-4289-85ea-b5a33c214153)
 
 
 #### Sheet Metal
@@ -193,7 +194,7 @@ Resource
 Learn about the difference between bodies and components in Fusion360.
 Resource:
 
-[   https://youtu.be/46UNmpQdbVc?si=kbC8jYi_Fd4sMaNZ](https://www.youtube.com/watch?si=kbC8jYi_Fd4sMaNZ&v=46UNmpQdbVc&feature=youtu.be)
+[https://youtu.be/46UNmpQdbVc?si=kbC8jYi_Fd4sMaNZ](https://www.youtube.com/watch?si=kbC8jYi_Fd4sMaNZ&v=46UNmpQdbVc&feature=youtu.be)
 
 https://www.youtube.com/watch?v=TzG2deElWqI
 
@@ -207,7 +208,7 @@ Resources:
 4.[Ratchet and Pawl Meechanism](https://www.youtube.com/watch?v=TbgPr0gt-wA)
 ![mechanism](https://gist.github.com/user-attachments/assets/0f0c860e-ca50-4eff-8b39-8278ce311f6c)
 
-## 5. Spur  Gear Design
+## 5. Spur Gear Design
 Your task is to design a spur gear based on the provided specifications.
 Create a 3D CAD model of the spur gear using Fusion 360. Ensure that the model accurately represents the designed gear, including tooth profiles, dimensions, and other relevant features.
 
@@ -232,7 +233,7 @@ https://youtu.be/XPhKfwCguLg?si=Zmqt2h0k3ibwVIt7
 
 
 
-## 6.Designing a parametric box
+## 6. Designing a Parametric Box
 Design a parametric box with threads and also design various lids with snap joints and slide joints.
       
 Assemble and animate them.The dimensions are 9*7*8 cm.
